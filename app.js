@@ -282,9 +282,11 @@ function init(SETTINGS) {
       configIndexName = SETTINGS.algolia.index_name
       break
     case 'asc(rank)':
-    case 'desc(rating)':
       configIndexName = SETTINGS.algolia.index_name + '_rank_ascending'
       break
+    case 'desc(rating)':
+      // configIndexName = SETTINGS.algolia.index_name + '_rank_ascending'
+      // break
     case 'desc(numrated)':
       configIndexName = SETTINGS.algolia.index_name + '_numrated_descending'
       break
