@@ -13,6 +13,7 @@
         "app_id": "LHTQ5T8AO9",
         "api_key_search_only": "dc83859eff61c2960b1a48a26280f02c",
         "index_name": "YOUR_INDEX_NAME",
-        "hits_per_page": 50
+        "hits_per_page": 48,
+        "sort_by": "asc(rank)"
     }
 }
